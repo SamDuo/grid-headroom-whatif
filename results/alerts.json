@@ -1,0 +1,68 @@
+[
+  {
+    "ba": "ERCO",
+    "severity": "review",
+    "check": "raw_spikes",
+    "message": "38 hours look like spikes; 38 of them, on 6 days, were left unchanged by EIA. Review before correcting: winter storms produce real spikes."
+  },
+  {
+    "ba": "ERCO",
+    "severity": "medium",
+    "check": "raw_null",
+    "message": "48 hours failed raw_null."
+  },
+  {
+    "ba": "PSCO",
+    "severity": "high",
+    "check": "peak",
+    "message": "Raw peak 19,352 MW is 2.0x the cleaned peak 9,853 MW; any capacity metric on raw data is wrong."
+  },
+  {
+    "ba": "PSCO",
+    "severity": "review",
+    "check": "raw_spikes",
+    "message": "115 hours look like spikes; 102 of them, on 15 days, were left unchanged by EIA. Review before correcting: winter storms produce real spikes."
+  },
+  {
+    "ba": "PSCO",
+    "severity": "medium",
+    "check": "raw_null",
+    "message": "24 hours failed raw_null."
+  },
+  {
+    "ba": "PSCO",
+    "severity": "medium",
+    "check": "raw_non_positive",
+    "message": "12 hours failed raw_non_positive."
+  },
+  {
+    "ba": "PSCO",
+    "severity": "low",
+    "check": "forecast_mape",
+    "message": "2023 day-ahead forecast error 46.7% (threshold 5%)."
+  },
+  {
+    "ba": "PSCO",
+    "severity": "low",
+    "check": "forecast_mape",
+    "message": "2024 day-ahead forecast error 6.0% (threshold 5%)."
+  },
+  {
+    "ba": "PSCO",
+    "severity": "low",
+    "check": "forecast_mape",
+    "message": "2025 day-ahead forecast error 7.6% (threshold 5%)."
+  },
+  {
+    "ba": "SOCO",
+    "severity": "high",
+    "check": "peak",
+    "message": "Raw peak 92,428 MW is 1.9x the cleaned peak 48,073 MW; any capacity metric on raw data is wrong."
+  },
+  {
+    "ba": "SOCO",
+    "severity": "review",
+    "check": "raw_spikes",
+    "message": "95 hours look like spikes; 92 of them, on 19 days, were left unchanged by EIA. Review before correcting: winter storms produce real spikes."
+  }
+]
